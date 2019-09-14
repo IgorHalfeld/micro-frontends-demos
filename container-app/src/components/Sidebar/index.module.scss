@@ -1,0 +1,15 @@
+@import '../../styles/variables.module';
+
+.container {
+  height: 100%;
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.containerTitle {
+  font-family: $font-family-default;
+  color: $color-white;
+}

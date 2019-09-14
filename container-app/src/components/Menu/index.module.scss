@@ -1,0 +1,41 @@
+@import '../../styles/variables.module';
+
+.menu {
+  margin-top: 100px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  position: relative;
+  padding: 13px 25px;
+  border-bottom: 0.5px solid hsla(0, 0%, 100%, .3);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+  &.active {
+    border-bottom: none;
+    font-weight: 700;
+    background-color: darken($color-primary, 5%);
+  }
+}
+
+.menuItemIcon {
+  width: 30px;
+  margin-right: 20px;
+}
+.menuItemLabel {
+  font-family: $font-family-default;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.chevronIcon {
+  width: 30px;
+  position: absolute;
+  right: 25px;
+}

@@ -1,0 +1,11 @@
+@import '../../styles/variables.module';
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: $font-family-default;
+  color: white;
+  text-transform: uppercase;
+}
